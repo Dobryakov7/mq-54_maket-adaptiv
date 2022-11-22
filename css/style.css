@@ -39,7 +39,6 @@
     position: relative;
     background-color: #666666;
     min-width: 1200px;
-    max-width: 1700px;
     min-height: 450px;
     text-transform: uppercase;
     color: #ffffff;
@@ -155,7 +154,6 @@
   .container-trands {
     display: flex;
     min-width: 1200px;
-    max-width: 1700px;
     margin: 0 auto;
     margin-bottom: 64px;
   }
@@ -170,6 +168,7 @@
     text-transform: uppercase;
     text-align: center;
     color: rgb(15, 13, 14);
+    margin-bottom: 24px;
   }
 
   .card-trands {
@@ -673,12 +672,15 @@
   }
 
   .button-buy {
+    display: block;
     width: 100%;
-    height: 48px;
+    height: 29px;
+    padding-top: 15px;
     font-family: "OpenSans", Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #ffffff;
     border-radius: 4%;
     border: 1px solid #b59f5b;
@@ -949,6 +951,7 @@
 
     .container-trands {
       max-width: 1199px;
+      display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       min-width: 100vw;
@@ -960,7 +963,7 @@
     }
 
     .card-trands {
-      width: 24.8%;
+      width: 49.8%;
       margin: 0px 0px 2px 0px;
     }
 
@@ -987,6 +990,8 @@
 
     .block-main-posts {
       flex-direction: column;
+      margin-bottom: 35px;
+      border-bottom: solid #eeeeee 4px;
     }
 
     .container-content {
